@@ -1,0 +1,27 @@
+{
+  "name": "custom-match-bot",
+  "version": "1.0.0",
+  "description": "Discord custom match helper",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sejunsteve",
+  "license": "AGPL-3.0",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.16.1",
+  "type": "module",
+  "dependencies": {
+    "@sapphire/framework": "^5.5.1",
+    "discord.js": "^14.28.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
